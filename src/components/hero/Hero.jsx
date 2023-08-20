@@ -9,6 +9,9 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Mahammad'-Hajiyef.pdf";
+import me from '../../assets/me1.png'
+import me1 from '../../assets/me.png'
+
 
 
 const Hero = () => {
@@ -92,12 +95,7 @@ const Hero = () => {
                   <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
-              {/* <li>
-                <a href="">
-                  {" "}
-                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
-              </li> */}
+             
             </ul>
           </div>
         </div>
@@ -106,8 +104,7 @@ const Hero = () => {
             <img
             data-aos="fade-up"
               className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='fmcvfvkdm'
-              // src={mine}
+              src={me1}
               alt="mine"
             />
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">

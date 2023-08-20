@@ -2,6 +2,7 @@ import React from "react";
 import { FaTelegramPlane } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { RiInstagramFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,28 +21,32 @@ const Footer = () => {
             <FaTelegramPlane className=" text-black text-3xl hover:scale-125 cursor-pointer" />
             <p>Telegram</p>
           </a>
+          <Link to='https://www.whatsapp.com/'>
           <a 
           data-aos="fade-up" data-aos-duration="1200"
 
-            href=""
+            href="https://www.whatsapp.com/"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <IoLogoWhatsapp className=" text-black text-3xl hover:scale-125 cursor-pointer" />
             <p>WhatsApp</p>
           </a>
+          </Link>
+          <Link to='https://www.instagram.com/hajyeff_m/' >
           <a 
           data-aos="fade-up" data-aos-duration="1400"
 
-            href=""
+            href="https://www.instagram.com/hajyeff_m/"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <RiInstagramFill className=" text-black text-3xl hover:scale-125 cursor-pointer" />
             <p>Instagram</p>
           </a>
+          </Link>
         </div>
         <div className="sm:text-[12px]">
-          | Copyright &copy; <span>2023 Dev AlphaSpace </span> All rights reserved
-          <a href="#"></a> |
+          | Copyright &copy; <span> Mehemmed hajiyef</span>
+          <a href=""></a> |
         </div>
       </div>
     </div>

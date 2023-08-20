@@ -72,11 +72,6 @@ const Skills = ({ darkMode }) => {
                   value={50}
                 />
 
-                <ProgressBar
-                  logo={<SiTailwindcss />}
-                  name={"Tailwind CSS"}
-                  value={50}
-                />
               </div>
             </div>
           </div>
