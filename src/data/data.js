@@ -32,13 +32,13 @@ export const data = [
     git: "https://github.com/MehemmedHajyev",
   },
   
-  {
-    id: 5,
-    img: 'https://i.postimg.cc/y8bxTyc4/Capture-PNGconsalting.png',
-    title: "khanbutaconsulting.az",
-    desc: "",
-    link: "https://khanbutaconsulting.az/",
-    git: "https://github.com/MehemmedHajyev",
-  }
+  // {
+  //   id: 5,
+  //   img: 'https://i.postimg.cc/y8bxTyc4/Capture-PNGconsalting.png',
+  //   title: "khanbutaconsulting.az",
+  //   desc: "",
+  //   link: "https://khanbutaconsulting.az/",
+  //   git: "https://github.com/MehemmedHajyev",
+  // }
 
 ];

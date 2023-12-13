@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Mahammad'-Hajiyef.pdf";
+import resumePDF from "../../assets/Mahammad Hajiyev Cv.pdf";
 import me from '../../assets/me1.png'
 import me1 from '../../assets/me.png'
 

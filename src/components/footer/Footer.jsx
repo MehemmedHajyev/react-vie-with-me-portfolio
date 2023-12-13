@@ -45,7 +45,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="sm:text-[12px]">
-          | Copyright &copy; <span> Mehemmed hajiyef</span>
+          | Copyright &copy; <span> Mahammad Hajiyef</span>
           <a href=""></a> |
         </div>
       </div>

@@ -50,13 +50,13 @@ const Contact = () => {
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
               type="email"
-              placeholder="hajyefmehemmed8@gmail.com"
+              placeholder="mehemmedhaciyev.dev@gmail.com"
               name=""
             />
             <input
               className="px-3 shadow-[0_0_16px_0px_rgba(0,0,0,0.1)] p-2 rounded-lg w-full"
               type="text"
-              placeholder="Hajiyef Mehemmed "
+              placeholder="Hajiyef Mahammad "
               name=""
             />
             <textarea
