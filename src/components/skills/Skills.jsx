@@ -55,12 +55,12 @@ const Skills = ({ darkMode }) => {
                   name={"Javascript"}
                   value={70}
                 />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={50} />
-                <ProgressBar
+                {/* <ProgressBar logo={<FaReact />} name={"React Js"} value={50} /> */}
+                {/* <ProgressBar
                   logo={<SiTailwindcss />}
                   name={"Ant Design"}
                   value={50}
-                />
+                /> */}
                 <ProgressBar
                   logo={<SiTailwindcss />}
                   name={"Rest API"}
@@ -68,7 +68,7 @@ const Skills = ({ darkMode }) => {
                 />
                 <ProgressBar
                   logo={<SiTailwindcss />}
-                  name={"Tailwind CSS"}
+                  name={"Mongo DB"}
                   value={50}
                 />
 
@@ -82,14 +82,21 @@ const Skills = ({ darkMode }) => {
                 logo={<IoLogoNodejs />}
                 black={"white"}
                 white={"black"}
-                skill={"Next Js"}
+                skill={"Node Js"}
+              />
+                     <SkillBox
+                logo={<SiMongodb />}
+                black={"black"}
+                white={"white"}
+                skill={"Express.js"}
               />
               <SkillBox
                 logo={<SiMongodb />}
                 black={"black"}
                 white={"white"}
-                skill={"Context API"}
+                skill={"React Js"}
               />
+          
             </div>
             <div className="last2 flex flex-col gap-10">
               {/* <SkillBox
@@ -98,30 +105,13 @@ const Skills = ({ darkMode }) => {
                 white={"white"}
                 skill={"Next.js"}
               /> */}
-              {/* <SkillBox
-                className=""
-                logo={
-                  <GrCode />
-                }
-                black={"black"}
-                white={"white"}
-                skill={""}
-              /> */}
-              {/* <SkillBox
-                className=""
-                logo={
-                  <SiNextdotjs className=" text-white bg-black rounded-full h-fit border-white overflow-hidden" />
-                }
-                black={"black"}
-                white={"white"}
-                skill={"Next Js"}
-              /> */}
+           
             </div>
           </div>
         </div>
 
         {/* icons */}
-        {/* <div
+        <div
           data-aos="fade-up"
           data-aos-duration="1200"
           className=" container m-auto flex items-center justify-center mt-8 gap-8 md:gap-5"
@@ -163,7 +153,7 @@ const Skills = ({ darkMode }) => {
           <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/javascript--v1.png"/>
           <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/nodejs.png"/>
           <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"/>
-        </div> */}
+        </div>
       </div>
     </div>
   );
